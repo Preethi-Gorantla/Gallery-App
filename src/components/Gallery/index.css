@@ -1,0 +1,31 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  padding: 20px 30px 10px 30px;
+}
+.gallery-image {
+  height: 65vh;
+  width: 65vw;
+  border-radius: 15px;
+}
+.heading {
+  color: #1e293b;
+}
+
+.description {
+  color: #64748b;
+}
+
+.thumbnail-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
